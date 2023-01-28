@@ -7,7 +7,7 @@ const SingleEvent = ({data}) => {
             <Image src={data.image} width={1000} height={500} alt={data.title} />
             
             <p>{data.description} </p><br/>
-            <input type="email" /><button>Submit</button>
+            <input type="email" /><button>Submits</button>
         </div>
   )
 }
