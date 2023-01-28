@@ -3,6 +3,7 @@ import Image from "next/image"
 export const Header=()=>{
     return (
         <header>
+            <div>
             <div className="topNav">
                 <Image src={'/images/logo_black.png'} alt="logo" width={50} height={50} />
               <nav>
@@ -29,7 +30,9 @@ export const Header=()=>{
               </nav> 
               
             </div>
-            <h1> Sed ut perspiciatis unde omnis</h1>
+            <p className="title"> Sed ut perspiciatis unde omnis</p>
+            </div>
+            
       </header>
     )
 }
