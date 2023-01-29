@@ -2,10 +2,10 @@ import React from 'react'
 import { Footer } from '../footer/footer'
 import { Header } from '../header/header'
 
-const MainLayout = ({children}) => {
+const MainLayout = ({children,changeBack}) => {
   return (
     <>
-        <Header/>
+        <Header changeBack={changeBack} />
         <main>
             {children}
         </main>

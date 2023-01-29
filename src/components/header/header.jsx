@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-export const Header=()=>{
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+export const Header=({changeBack})=>{
     return (
         <header>
             <div>
@@ -22,6 +23,11 @@ export const Header=()=>{
                         <Link href="/about-us" passHref legacyBehavior>
                             <a>About Us</a>
                         </Link>
+                    </li>
+                    <li>
+                      
+                       <button onClick={changeBack}>B/W</button>
+                    
                     </li>
                 </ul>
                
